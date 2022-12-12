@@ -1,25 +1,25 @@
-<nav class="navbar navbar-expand-lg navbar-light shadow" style="background-color:#2c70b1;">
+<nav class="navbar navbar-expand-lg navbar-dark text-dark shadow ">
 
-    <h2 class="p-2 text-white" style="font-size:23px; font-weight:400;">Cheaptalk.com</h2>
+    <h2 class="p-2 text-dark" style="font-size:23px; font-weight:400;">Final Proj</h2>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
+    <div class="collapse text-dark navbar-collapse d-flex justify-content-center" id="navbarSupportedContent">
         <ul class="navbar-nav d-flex align-items-end justify-content-end">
             <li class="nav-item">
-                <a class="nav-link text-white {{ 'dashboard' == request()->path() ? 'active' : '' }}"
+                <a class="nav-link text-dark {{ 'dashboard' == request()->path() ? 'active' : '' }}"
                     href="{{ '/dashboard' }}">Dashboard</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link text-white {{ 'recent-post' == request()->path() ? 'active' : '' }}"
+                <a class="nav-link text-dark {{ 'recent-post' == request()->path() ? 'active' : '' }}"
                     href="{{ '/recent-post' }}">Recent Posts</a>
             </li>
 
             @role('admin')
                 <span class="nav-line"></span>
                 {{-- <li class="nav-item">
-                    <a class="nav-link text-white {{ 'contact' == request()->path() ? 'active' : '' }}"
+                    <a class="nav-link text-dark {{ 'contact' == request()->path() ? 'active' : '' }}"
                         href="{{ '/contact' }}">Contacts</a>
                 </li> --}}
                 <span class="nav-line"></span>
@@ -27,7 +27,7 @@
                 <span class="nav-line"></span>
 
                 <div class="dropdown">
-                    <a class="btn dropdown-toggle text-light" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+                    <a class="btn dropdown-toggle text-dark" type="button" id="dropdownMenuButton" data-toggle="dropdown"
                         aria-haspopup="true" aria-expanded="false">
                         Admin
                     </a>
@@ -66,7 +66,7 @@
                 </div>
             @endrole
             <li class="nav-item">
-                <a class="nav-link text-light" href="{{ '/logout' }}">Sign out</a>
+                <a class="nav-link text-dark" href="{{ '/logout' }}">Sign out</a>
             </li>
     </div>
 </nav>

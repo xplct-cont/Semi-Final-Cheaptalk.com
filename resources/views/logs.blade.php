@@ -10,7 +10,7 @@
             <h1 style="font-size: 23px; font-weight: 400;">Activity Log</h1>
         </div>
         <table class="table table-striped shadow-lg text-center">
-            <thead style="background-color:#2c70b1; color:white;">
+            <thead style="background-color:red; color:white;">
                 <th>Timestamp</th>
                 <th>Log Entry</th>
             </thead>

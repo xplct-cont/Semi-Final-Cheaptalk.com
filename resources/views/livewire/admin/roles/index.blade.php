@@ -9,7 +9,7 @@
         <input type="search" class="form-control float-start mx-2 mb-3" style="width: 250px;" placeholder="Search" wire:model.lazy="search">
         <div class="card-body">
             <table class="table table-striped shadow-lg text-center">
-                <thead style="background-color: #2c70b1; color:white;">
+                <thead style="background-color: red; color:white;">
                     <tr>
                         <th>Role</th>
                         <th>Action</th>

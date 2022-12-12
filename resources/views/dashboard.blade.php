@@ -12,10 +12,10 @@
                 <div class="col-md-3 mb-2">
                     <div class="card shadow">
                         <a href="/recent-post" id="dash-link">
-                            <div class="card-body rounded " style="background-color:#2c70b1;">
+                            <div class="card-body rounded " style="background-color:red">
                                 <div class="row">
                                     <div class="col">
-                                        <i class="fa fa-history text-white mt-2" id="dash-icon"></i>
+                                       
                                     </div>
                                     <div class="col mt-4">
                                         <span class="text-white float-right" id="text">Recent Post</span><br>
@@ -30,10 +30,10 @@
                 <div class="col-md-3 mb-2">
                     <div class="card shadow">
                         <a href="/log" id="dash-link">
-                            <div class="card-body rounded" style="background-color:#2c70b1;">
+                            <div class="card-body rounded" style="background-color:red">
                                 <div class="row">
                                     <div class="col">
-                                        <i class="fa fa-book text-white mt-2" id="dash-icon"></i>
+                                     
                                     </div>
                                     <div class="col mt-4">
                                         <span class="text-white float-right" id="text">Total Logs</span><br>
@@ -48,10 +48,10 @@
                 <div class="col-md-3">
                     <div class="card shadow">
                         <a href="/my-post" id="dash-link">
-                            <div class="card-body rounded" style="background-color:#2c70b1;">
+                            <div class="card-body rounded" style="background-color:red">
                                 <div class="row">
                                     <div class="col">
-                                        <i class="fa fa-thumbs-o-up text-white mt-2" id="dash-icon"></i>
+                                        
                                     </div>
                                     <div class="col mt-4">
                                         <span class="text-white float-right" id="text">Your Posts</span><br>

@@ -6,8 +6,8 @@
         </div>
         <div class="post-body">
             <div class="col-md-6" style="width: 560px">
-                <div class=" shadow-md p-3 " id="write">
-                    <button class="write-2 form-control" style="color:white;background-color: #2c70b1;" data-toggle="modal" data-target="#click">Create new post</button>
+                <div class=" shadow-md p-3 bg-dark" id="write">
+                    <button class="write-2 form-control" style="color:white;background-color: red;" data-toggle="modal" data-target="#click">Create new post</button>
                 </div>
             </div>
             
